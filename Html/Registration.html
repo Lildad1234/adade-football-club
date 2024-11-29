@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       textarea, input[type=text], input[type=password], input[type=email], input[type=number], input[type=date], input[type=tel]{
+           width: 100%;
+           margin: 8px 0;
+           padding: 12px 20px;
+           display: inline-block;
+           border: 2px solid rgb(109,8,240);
+           box-sizing: border-box;
+         }
+         body{
+            background-color: rgb(126, 126, 126);
+         }
+    </style>
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <form>
+        <h1 style="text-align: center;">REGISTRATION FORMS</h1>
+        <br>
+        <div style="padding: 25p; background-color: rgb(250, 240, 98);">
+            <label>First Name :</label>
+        <input type="text" placeholder="First Name" maxlength="15"><br>
+        <label>Meddle Name :</label>
+        <input type="text" placeholder="Meddle Name" maxlength="15"><br>
+        <label>Other Names</label>
+        <input type="text" placeholder="Other Name" maxlength="15"><br>
+        <label> Date of Birth</label>
+        <input type="date" placeholder="Date of Birth">
+         <br>
+        <label>Telephone num :</label>
+        <input type="tel" placeholder="+233" maxlength="10">
+        <br>
+             <label>Address : </label><br />
+             <textarea cols="80" rows="5" value="Address"></textarea><br />
+                <br>
+             <label>Email : </label>
+
+             <input type="email" id="email" name="email"><br />
+               <br>
+             <label>Password : </label>
+             <input type="password" id="pass" name="pass"><br />
+             <br>
+             <label>Re-enter Password : </label>
+             <input type="password" id="pass" name="pass"><br />
+             <br>
+             <div style="text-align: right;">
+                <input type="submit">
+             </div>
+        </div>
+    </form>
+    
+</body>
+</html>
